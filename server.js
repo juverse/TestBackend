@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = process.env.OPENROUTER_API_KEY;
+const API_KEY = process.env.API_KEY;
 
 app.post("/chat", async (req, res) => {
   try {
