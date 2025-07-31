@@ -7,7 +7,7 @@ const app = express();
 // Whitelist für CORS
 const allowedOrigins = [
   "http://localhost:3000",   
-  "http://localhost:5000",   
+  "http://localhost:3366",   
   "http://localhost:8000",       // für lokalen Test
   "https://juverse.github.io"    // GitHub Pages Domain
 ];
